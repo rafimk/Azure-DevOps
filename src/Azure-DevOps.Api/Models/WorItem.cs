@@ -14,4 +14,5 @@ public class WorkItem
     public int ParentId { get; set; } = 0;
     public int SiteId { get; set; } = 0;
     public int SiteParentId { get; set; } = 0;
+    public int Updated { get; set;} = 0;
 }
