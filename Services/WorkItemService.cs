@@ -6,6 +6,12 @@ public class WorkItemService
     public readonly string _type = "Product Backlog Item";
     public readonly string _apiVersion = "api-version=6.0";
     public readonly string _uri = "http://xxxxx.xx/collection/projectname/_apis/wit/workitems/";
+    public readonly string _epic = "Epic";
+    public readonly string _feature = "Feature";
+    public readonly string _back_log = "Product Backlog Item";
+    public readonly string _ac = "Acceptance Criteria";
+    public readonly string _ua = "UI Acceptance Criteria";
+
 
     public async Task CreateWorkItem(string title, string description)
     {
